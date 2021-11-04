@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav .container {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid blue;
+}
+
+.logo img {
+  border: 3px solid red;
+  width: 200px;
+}
+.menu {
+  display: flex;
+  border: 3px solid goldenrod;
+}
+.menu a {
+  color: black;
+  font-family: "Arial";
+  text-decoration: none;
+  margin-right: 30px;
+}
